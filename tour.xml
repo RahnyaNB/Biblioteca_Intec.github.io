@@ -754,4 +754,18 @@
 	</scene>
 
 
+	<!-- Ejemplo de colocacion imagen de hotspots>
+
+	<hotspot name="spot1" style="flyoutimage"
+	         url="image1.jpg"
+	         zorder="1"
+	         ath="45"
+	         atv="54"
+	         scale="0.4"
+	         rx="-22.5" ry="-26.25" rz="-50.1"
+	         />
+
+	-->
+
+
 </krpano>
