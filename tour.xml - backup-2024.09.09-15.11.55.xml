@@ -748,7 +748,6 @@
 		</image>
 
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="173.941" atv="3.984" linkedscene="scene_escena11" linkedscene_lookat="181.74,17.8,120.0" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.596" atv="18.980" linkedscene="scene_escena12" linkedscene_lookat="181.51,25.97,120.0" />
 
 	
 	</scene>
