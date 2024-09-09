@@ -747,8 +747,6 @@
 			<cube url="panos/Escena12-2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="173.941" atv="3.984" linkedscene="scene_escena11" linkedscene_lookat="181.74,17.8,120.0" />
-
 	
 	</scene>
 
