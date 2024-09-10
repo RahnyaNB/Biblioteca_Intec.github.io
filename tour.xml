@@ -260,6 +260,21 @@
 		<hotspot name="spot6" style="pisada_hotspot" ath="-101.790" atv="15.552" linkedscene="scene_escena15-1" linkedscene_lookat="42.11,4.61,120.0" />
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
+		<hotspot name="saa" style="flyoutimage" ath="93.9387763" atv="-12.7359589" scale="0.06" url="recursos/Carteles/Sala de lectura descripcion.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+		
+		
+		<!-- 
+		<hotspot name="Sala de lectura" style="flyoutimage"
+	         url="recursos/Carteles/Sala de lectura descripcion.jpg"
+	         zorder="1"
+	         ath="93.9387763"
+	         atv="-12.7359589"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+				-->
+
+
 	</scene>
 
 	<scene name="scene_Escena13-2" title="Escena13-2" onstart="" thumburl="panos/Escena13-2.tiles/thumb.jpg" lat="18.48780556" lng="-69.96177778" alt="20.19" heading="0.0">
