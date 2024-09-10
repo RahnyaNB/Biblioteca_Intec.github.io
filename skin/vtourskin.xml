@@ -315,7 +315,7 @@
 	       backup_zorder=""
 	       flying_state="in"
 	       capture="true"
-	       onclick="flyout_hotspot()"
+	       onclick="flyout_action()"
 	       />
 
 	
@@ -323,11 +323,11 @@
 	
 	
 		<!-- flyout hotspot actions -->
-	<action name="flyout_hotspot">
+	<action name="flyout_action">
 		for(set(i,0), i LT hotspot.count, inc(i),
 			copy(hs, hotspot[get(i)]);
 			if(hs.name != name AND hs.style == 'flyoutimage' AND (hs.flying_state == 'out' OR hs.flying_state == 'flyingout'),
-				callwith(hs, flyout_hotspot() );
+				callwith(hs, flyout_action() );
 			  );
 		  );
 
