@@ -7,7 +7,7 @@ Este proyecto consiste en un tour virtual interactivo de las diferentes áreas d
 - **Área de lectura**
 - **Salas de estudio grupal**
 - **Salón de conferencias**
-- **Zona multimedia**
+- **Sala de Referencias**
 - **Sección de colecciones especiales**
 
 ## Funcionalidades
