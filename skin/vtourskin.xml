@@ -296,6 +296,7 @@
 		  );
 	</action>
 
+	<!-- Hotspots agregados -->
 
 	<style name="flyoutimage"
 	       renderer="webgl"
@@ -337,14 +338,37 @@
 	       onloaded.addevent="skin_hotspotstyle_setup();"
 	       />
 
-
+	<style name="hand2_hotspot" url="hand2_hotspot.png" edge="top" distorted="true"
+	       tooltip=""
+	       linkedscene=""
+	       linkedscene_lookat=""
+	       linkedscene_hoffset="0"
+	       use3dtransition="false"
+	       onclick="skin_hotspotstyle_click();"
+	       depth="1000"
+	       scale="0.5"
+	       onover.addevent="tween(scale,0.55);"
+	       onout.addevent="tween(scale,0.5);"
+	       onloaded.addevent="skin_hotspotstyle_setup();"
+	       />
 
 
 
 	
+	
+	
+	
+	
+	
+	
+	
+
+
+
 	
 	
 	<!-- skin_glow - button glowing -->
+	
 	<style name="skin_glow"
 	       scalechildren="false"
 	       ondown.addevent="copy(skin_lockglow,name); skin_buttonglow(get(name));"

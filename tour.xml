@@ -182,7 +182,7 @@
 			visible="false"
 			distorted="true"
 			onclick="ocultar();" />
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="11.560" atv="10.319" linkedscene="scene_escena12-1" linkedscene_lookat="-8.48,-3.42,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="11.560" atv="10.319" linkedscene="scene_escena12-1" linkedscene_lookat="-8.48,-3.42,120.0" />
 
 
 	</scene>
@@ -678,8 +678,9 @@
 		</image>
 
 		
-		<hotspot name="spot2" style="pisada_hotspot" ath="-16.323" atv="34.953" linkedscene="scene_escena4-2" linkedscene_lookat="-88.48,-1.89,120.0" />
+		<hotspot name="spot2" style="hand2_hotspot" ath="-6.352" atv="3.436" linkedscene="scene_escena4-2" linkedscene_lookat="176.03,23.1,120.0" />
 		<hotspot name="spot1" style="pisada_hotspot" ath="106.297" atv="31.163" linkedscene="scene_escena2" linkedscene_lookat="178.66,13.33,120.0" />
+
 
 	</scene>
 
@@ -695,8 +696,8 @@
 			<cube url="panos/Escena4-2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-97.308" atv="13.129" linkedscene="scene_escena4-3" linkedscene_lookat="18.15,6.21,120.0" />
-		<hotspot name="spot2" style="pisada_hotspot" ath="-113.659" atv="17.318" linkedscene="scene_escena4-1" linkedscene_lookat="133.89,10.12,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="-13.219" atv="4.419" linkedscene="scene_escena4-3" linkedscene_lookat="-0.0,2.22,120.0" />
+		<hotspot name="spot2" style="hand2_hotspot" ath="-29.320" atv="-3.824" linkedscene="scene_escena4-1" linkedscene_lookat="152.87,6.65,120.0" />
 
 	</scene>
 
@@ -731,7 +732,7 @@
 			<cube url="panos/Escena12-1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-3.805" atv="17.426" linkedscene="scene_escena12" linkedscene_lookat="177.12,21.83,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="-3.805" atv="17.426" linkedscene="scene_escena12" linkedscene_lookat="177.12,21.83,120.0" />
 
 	</scene>
 
@@ -747,8 +748,8 @@
 			<cube url="panos/Escena12-2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="173.941" atv="3.984" linkedscene="scene_escena11" linkedscene_lookat="181.74,17.8,120.0" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.596" atv="18.980" linkedscene="scene_escena12" linkedscene_lookat="181.51,25.97,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="173.941" atv="3.984" linkedscene="scene_escena11" linkedscene_lookat="181.74,17.8,120.0" />
+		<hotspot name="spot2" style="pisada_hotspot" ath="-1.596" atv="18.980" linkedscene="scene_escena12" linkedscene_lookat="181.51,25.97,120.0" />
 
 	
 	</scene>
