@@ -465,17 +465,13 @@
 		<hotspot name="spot2" style="pisada_hotspot" ath="8.076" atv="21.119" linkedscene="scene_escena9" linkedscene_lookat="6.67,-2.92,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="-105.932" atv="20.226" linkedscene="scene_escena10" linkedscene_lookat="39.61,-3.33,120.0" />
 
-		<hotspot name="Centro libro chino" style="flyoutimage"
-	         url="recursos/Carteles/Cenchino.jpg"
-	         zorder="1"
-	         ath="-83.1434726"
-	         atv="-3.4669938"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+
 
 		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="87.4801231" atv="3.1718004" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
 		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="87.4801231" atv="3.1718004" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+
+		<hotspot name="boton_cenchino" url="recursos/Carteles/Cenchino.jpg" scale="0.1" ath="-83.1434726" atv="-3.4669938" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,true);"/>
+		<hotspot name="cenchino" url="recursos/Carteles/Cenchino descripcion.jpg" visible="false" ath="-83.1434726" atv="-3.4669938" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,false);"/>
 
 
 	</scene>
