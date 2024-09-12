@@ -282,8 +282,8 @@
 	         />
 		
 		
-		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" keep="true" enabled="true" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
-		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" keep="true" enabled="true" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
+		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" enabled="true" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
+		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" enabled="true" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
 
 
 	</scene>
