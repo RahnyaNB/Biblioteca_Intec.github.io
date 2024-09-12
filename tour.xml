@@ -208,7 +208,7 @@
 			<cube url="panos/Escena1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="5.321" atv="26.811" linkedscene="scene_escena2" linkedscene_lookat="-6.88,-3.75,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="4.8828200" atv="22.8313625" linkedscene="scene_escena2" linkedscene_lookat="-6.88,-3.75,120.0" />
 
 	</scene>
 
@@ -242,10 +242,13 @@
 			<cube url="panos/Escena12.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="108.521" atv="31.441" linkedscene="scene_escena13-1" linkedscene_lookat="-130.99,10.17,120.0" />
-		<hotspot name="spot2" style="pisada_hotspot" ath="-114.037" atv="21.761" linkedscene="scene_escena13-1" linkedscene_lookat="-213.5,-3.64,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="111.6944424" atv="2.0135495" linkedscene="scene_escena13-1" linkedscene_lookat="-130.99,10.17,120.0" />
+		<hotspot name="spot2" style="hand2_hotspot" ath="-121.2216049" atv="1.8896358" linkedscene="scene_escena13-1" linkedscene_lookat="-213.5,-3.64,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="7.156" atv="5.240" linkedscene="scene_escena12-2" linkedscene_lookat="177.1,0.36,120.0" />
 		
+		<hotspot name="boton_unesco" url="recursos/Carteles/unesco.jpg" scale="0.1" ath="176.2119642" atv="5.1713760" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,true);"/>
+		<hotspot name="unesco" url="recursos/Carteles/unesco.jpg" visible="false" ath="176.2119642" atv="5.1713760" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,false);"/>
+
 
 	</scene>
 
@@ -269,21 +272,16 @@
 		<hotspot name="spot6" style="pisada_hotspot" ath="-101.790" atv="15.552" linkedscene="scene_escena15-1" linkedscene_lookat="42.11,4.61,120.0" />
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
-		<hotspot name="Sala de Lectura" style="flyoutimage" ath="93.9387763" atv="-12.7359589" scale="0.06" url="recursos/Carteles/Sala de Lectura.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+		
+		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-139.6595421" atv="-22.2339718" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
+		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" ath="-139.6595421" atv="-22.2339718" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
 
-		
-		<hotspot name="Prestamo de Libros" style="flyoutimage"
-	         url="recursos/Carteles/Prestamo de libros.jpg"
-	         zorder="1"
-	         ath="-139.6595421"
-	         atv="-22.2339718"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
-		
 		
 		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
 		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
+
+		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="93.9387763" atv="-12.7359589" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
+		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="93.9387763" atv="-12.7359589" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
 
 
 	</scene>
@@ -316,18 +314,13 @@
 			<cube url="panos/Escena15-1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="107.240" atv="37.475" linkedscene="scene_escena17" linkedscene_lookat="212.75,12.0,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="97.0100858" atv="7.8257658" linkedscene="scene_escena17" linkedscene_lookat="212.75,12.0,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.393" atv="23.629" linkedscene="scene_escena13-1" linkedscene_lookat="84.56,17.57,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="68.255" atv="16.981" linkedscene="scene_escena15-2" linkedscene_lookat="7.3,0.83,120.0" />
 		
-		<hotspot name="SalaProf" style="flyoutimage"
-	         url="recursos/Carteles/Sala de Profesores.jpg"
-	         zorder="1"
-	         ath="127.9963566"
-	         atv="-29.2767319"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_salaprof" url="recursos/Carteles/Sala de Profesores.jpg" scale="0.1" ath="127.4976907" atv="-1.6906953" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,true);"/>
+		<hotspot name="salaprof" url="recursos/Carteles/Prof descripcion.jpg" visible="false" ath="127.4976907" atv="-1.6906953" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,false);"/>
+
 
 
 	</scene>
@@ -344,17 +337,11 @@
 			<cube url="panos/Escena15-2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-95.405" atv="24.634" linkedscene="scene_escena16" linkedscene_lookat="-70.24,-2.28,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="-99.0308329" atv="5.8171723" linkedscene="scene_escena16" linkedscene_lookat="-70.24,-2.28,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.544" atv="17.227" linkedscene="scene_escena15-1" linkedscene_lookat="-142.82,-0.75,120.0" />
 
-		<hotspot name="Cubigru" style="flyoutimage"
-	         url="recursos/Carteles/Cubigru.jpg"
-	         zorder="1"
-	         ath="-98.5274677"
-	         atv="-31.5944843"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="-98.5274677" atv="-31.5944843" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="-98.5274677" atv="-31.5944843" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
 
 	</scene>
@@ -373,16 +360,11 @@
 
 		<hotspot name="spot1" style="pisada_hotspot" ath="-27.736" atv="17.278" linkedscene="scene_escena3-1" linkedscene_lookat="4.19,15.22,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="14.809" atv="17.162" linkedscene="scene_escena4-1" linkedscene_lookat="341.69,24.37,120.0" />
-		<hotspot name="spot3" style="pisada_hotspot" ath="165.956" atv="21.147" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
+		<hotspot name="spot3" style="pisada_hotspot" ath="163.2870693" atv="19.2867316" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
 
-		<hotspot name="Sala Julio" style="flyoutimage"
-	         url="recursos/Carteles/Sala Julio Ravelo.jpg"
-	         zorder="1"
-	         ath="-27.0045900"
-	         atv="-12.1052088"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+
+		<hotspot name="boton_salajulio" url="recursos/Carteles/Sala Julio Ravelo.jpg" scale="0.1" ath="-27.0045900" atv="-12.1052088" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,true);"/>
+		<hotspot name="salajulio" url="recursos/Carteles/Julio descripcion.jpg" visible="false" ath="-27.0045900" atv="-12.1052088" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,false);"/>
 
 
 	</scene>
@@ -399,17 +381,11 @@
 			<cube url="panos/Escena24-1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-43.263" atv="6.938" linkedscene="scene_escena20" linkedscene_lookat="103.1,10.9,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="-44.2706789" atv="1.5922477" linkedscene="scene_escena20" linkedscene_lookat="103.1,10.9,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="177.200" atv="13.511" linkedscene="scene_escena24-2" linkedscene_lookat="180.27,4.85,120.0" />
-
-		<hotspot name="Cubigrupal" style="flyoutimage"
-	         url="recursos/Carteles/Cubigru.jpg"
-	         zorder="1"
-	         ath="90.6654285"
-	         atv="-17.8866630"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
 
 	</scene>
@@ -427,27 +403,15 @@
 		</image>
 
 		<hotspot name="spot1" style="pisada_hotspot" ath="0.533" atv="15.900" linkedscene="scene_escena24-1" linkedscene_lookat="0.21,1.67,120.0" />
-		<hotspot name="spot2" style="pisada_hotspot" ath="-87.129" atv="12.201" linkedscene="scene_escena26" linkedscene_lookat="1.67,-2.29,120.0" />
-		<hotspot name="spot3" style="pisada_hotspot" ath="91.131" atv="11.224" linkedscene="scene_escena25" linkedscene_lookat="-63.58,-2.29,120.0" />
+		<hotspot name="spot2" style="hand2_hotspot" ath="-86.8285493" atv="3.2224448" linkedscene="scene_escena26" linkedscene_lookat="1.67,-2.29,120.0" />
+		<hotspot name="spot3" style="hand2_hotspot" ath="90.5406474" atv="2.2707454" linkedscene="scene_escena25" linkedscene_lookat="-63.58,-2.29,120.0" />
 
 
-		<hotspot name="Cencapa" style="flyoutimage"
-	         url="recursos/Carteles/Cencapa.jpg"
-	         zorder="1"
-	         ath="-86.4787909"
-	         atv="-20.7868160"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
-		<hotspot name="Cubigrupal" style="flyoutimage"
-	         url="recursos/Carteles/Cubigru.jpg"
-	         zorder="1"
-	         ath="90.6654285"
-	         atv="-17.8866630"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_cencapa" url="recursos/Carteles/Cencapa.jpg" scale="0.1" ath="-86.4787909" atv="-20.7868160" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,true);"/>
+		<hotspot name="cencapa" url="recursos/Carteles/Cencapa descripcion.jpg" visible="false" ath="-86.4787909" atv="-20.7868160" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,false);"/>
 
 
 	</scene>
@@ -497,7 +461,7 @@
 			<cube url="panos/Escena7.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-179.254" atv="20.670" linkedscene="scene_escena6" linkedscene_lookat="66.22,5.18,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="179.9658682" atv="4.7909729" linkedscene="scene_escena6" linkedscene_lookat="66.22,5.18,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="8.076" atv="21.119" linkedscene="scene_escena9" linkedscene_lookat="6.67,-2.92,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="-105.932" atv="20.226" linkedscene="scene_escena10" linkedscene_lookat="39.61,-3.33,120.0" />
 
@@ -510,14 +474,9 @@
 	         rx="0" ry="0" rz="0"
 	         />
 
-		<hotspot name="Cubigru" style="flyoutimage"
-	         url="recursos/Carteles/Cubigru.jpg"
-	         zorder="1"
-	         ath="87.4801231"
-	         atv="3.1718004"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="87.4801231" atv="3.1718004" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="87.4801231" atv="3.1718004" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+
 
 	</scene>
 
@@ -533,7 +492,7 @@
 			<cube url="panos/Escena8.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-125.898" atv="40.109" linkedscene="scene_escena9" linkedscene_lookat="-175.4,3.93,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="-122.9489956" atv="8.9679707" linkedscene="scene_escena9" linkedscene_lookat="-175.4,3.93,120.0" />
 
 	</scene>
 
@@ -549,8 +508,13 @@
 			<cube url="panos/Escena9.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="21.621" atv="38.936" linkedscene="scene_escena8" linkedscene_lookat="-1.25,-1.25,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="12.9755850" atv="4.1831573" linkedscene="scene_escena8" linkedscene_lookat="-1.25,-1.25,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="176.430" atv="13.497" linkedscene="scene_escena7" linkedscene_lookat="-128.41,9.4,120.0" />
+
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="29.6903671" atv="3.7306735" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="29.6903671" atv="3.7306735" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+
+
 
 	</scene>
 
@@ -631,7 +595,7 @@
 			<cube url="panos/Escena19.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-14.775" atv="26.581" linkedscene="scene_escena13-1" linkedscene_lookat="-20.43,-3.96,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="-15.6699266" atv="22.2628368" linkedscene="scene_escena13-1" linkedscene_lookat="-20.43,-3.96,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="12.905" atv="-2.677" linkedscene="scene_escena20" linkedscene_lookat="333.81,11.07,120.0" />
 
 	</scene>
@@ -649,24 +613,19 @@
 		</image>
 
 		<hotspot name="spot1" style="pisada_hotspot" ath="119.041" atv="20.730" linkedscene="scene_escena19" linkedscene_lookat="-50.86,27.12,120.0" />
-		<hotspot name="spot2" style="pisada_hotspot" ath="174.454" atv="-3.554" linkedscene="scene_escena22" linkedscene_lookat="-1.67,2.09,120.0" />
-		<hotspot name="spot3" style="pisada_hotspot" ath="7.098" atv="33.230" linkedscene="scene_escena21" linkedscene_lookat="89.81,10.31,120.0" />
+		<hotspot name="spot2" style="hand2_hotspot" ath="174.454" atv="-3.554" linkedscene="scene_escena22" linkedscene_lookat="-1.67,2.09,120.0" />
+		<hotspot name="spot3" style="hand2_hotspot" ath="7.2901663" atv="4.0625962" linkedscene="scene_escena21" linkedscene_lookat="89.81,10.31,120.0" />
 		<hotspot name="spot4" style="pisada_hotspot" ath="92.924" atv="16.386" linkedscene="scene_escena23" linkedscene_lookat="230.16,14.73,120.0" />
 		<hotspot name="spot5" style="pisada_hotspot" ath="-86.992" atv="15.987" linkedscene="scene_escena24-1" linkedscene_lookat="140.26,13.0,120.0" />
 		
-		<hotspot name="Prestamo de Libros" style="flyoutimage"
-	         url="recursos/Carteles/Prestamo de libros.jpg"
-	         zorder="1"
-	         ath="-154.4743642"
-	         atv="-31.6597627"
-	         scale="0.06"
-	         rx="0" ry="0" rz="0"
-	         />
+		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="92.1970772" atv="-12.0610832" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
+		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="92.1970772" atv="-12.0610832" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
 
-
-		<hotspot name="Sala de Lectura" style="flyoutimage" ath="92.1970772" atv="-12.0610832" scale="0.06" url="recursos/Carteles/Sala de Lectura.jpg" linkedscene_lookat="3.57,9.87,120.0" />
-		<hotspot name="Area en grupo" style="flyoutimage" ath="-84.0169530" atv="-13.2911115" scale="0.06" url="recursos/Carteles/Area en grupo.jpg" linkedscene_lookat="3.57,9.87,120.0" />
-
+		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-154.4743642" atv="-31.6597627" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
+		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" ath="-154.4743642" atv="-31.6597627" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
+	
+		<hotspot name="boton_areagru" url="recursos/Carteles/Area en grupo.jpg" scale="0.1" ath="-84.0169530" atv="-13.2911115" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,true);"/>
+		<hotspot name="areagru" url="recursos/Carteles/Area grupal descripcion.jpg" visible="false" ath="-84.0169530" atv="-13.2911115" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,false);"/>
 
 
 	</scene>
@@ -683,7 +642,7 @@
 			<cube url="panos/Escena21.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-82.676" atv="32.866" linkedscene="scene_escena20" linkedscene_lookat="184.82,5.58,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="-81.6549941" atv="7.2116724" linkedscene="scene_escena20" linkedscene_lookat="184.82,5.58,120.0" />
 
 	</scene>
 
@@ -699,7 +658,7 @@
 			<cube url="panos/Escena22.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-179.223" atv="10.459" linkedscene="scene_escena20" linkedscene_lookat="29.81,3.34,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="-179.0080308" atv="3.0883476" linkedscene="scene_escena20" linkedscene_lookat="29.81,3.34,120.0" />
 
 	</scene>
 
@@ -731,7 +690,7 @@
 			<cube url="panos/Escena25.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="90.493" atv="28.221" linkedscene="scene_escena24-2" linkedscene_lookat="-79.8,8.34,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="91.2322799" atv="5.4706962" linkedscene="scene_escena24-2" linkedscene_lookat="-79.8,8.34,120.0" />
 
 	</scene>
 
@@ -747,7 +706,7 @@
 			<cube url="panos/Escena26.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="179.944" atv="15.318" linkedscene="scene_escena24-2" linkedscene_lookat="89.28,20.37,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="179.9774399" atv="3.0713967" linkedscene="scene_escena24-2" linkedscene_lookat="89.28,20.37,120.0" />
 
 	</scene>
 
@@ -798,7 +757,7 @@
 
 		
 		<hotspot name="spot2" style="hand2_hotspot" ath="-6.352" atv="3.436" linkedscene="scene_escena4-2" linkedscene_lookat="176.03,23.1,120.0" />
-		<hotspot name="spot1" style="pisada_hotspot" ath="106.297" atv="31.163" linkedscene="scene_escena2" linkedscene_lookat="178.66,13.33,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="103.8360115" atv="6.3166580" linkedscene="scene_escena2" linkedscene_lookat="178.66,13.33,120.0" />
 
 
 	</scene>
@@ -835,7 +794,7 @@
 		
 		<hotspot name="spot2" style="pisada_hotspot" ath="148.435" atv="17.728" linkedscene="scene_escena4-2" linkedscene_lookat="123.96,12.4,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="-27.579" atv="18.385" linkedscene="scene_escena6" linkedscene_lookat="247.96,5.91,120.0" />
-		<hotspot name="spot1" style="pisada_hotspot" ath="59.875" atv="19.846" linkedscene="scene_escena5" linkedscene_lookat="8.13,-3.75,120.0" />
+		<hotspot name="spot1" style="hand2_hotspot" ath="63.1215785" atv="5.4878334" linkedscene="scene_escena5" linkedscene_lookat="8.13,-3.75,120.0" />
 
 	</scene>
 
