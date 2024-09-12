@@ -183,7 +183,7 @@
 			distorted="true"
 			onclick="ocultar();" />
 		<hotspot name="spot1" style="pisada_hotspot" ath="11.560" atv="10.319" linkedscene="scene_escena12-1" linkedscene_lookat="-8.48,-3.42,120.0" />
-
+		
 
 	</scene>
 	
@@ -260,19 +260,18 @@
 		<hotspot name="spot6" style="pisada_hotspot" ath="-101.790" atv="15.552" linkedscene="scene_escena15-1" linkedscene_lookat="42.11,4.61,120.0" />
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
-		<hotspot name="s" style="flyoutimage" ath="93.9387763" atv="-12.7359589" scale="0.06" url="recursos/Carteles/Sala de lectura descripcion.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+		<hotspot name="Sala de Lectura" style="flyoutimage" ath="93.9387763" atv="-12.7359589" scale="0.06" url="recursos/Carteles/Sala de Lectura.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+		<hotspot name="Sala de Referencia" style="flyoutimage" ath="-101.3053332" atv="-13.5187094" scale="0.06" url="recursos/Carteles/Sala de Referencia.jpg" linkedscene_lookat="3.57,9.87,120.0" />
 		
-		
-		<!-- 
-		<hotspot name="Sala de lectura" style="flyoutimage"
-	         url="recursos/Carteles/Sala de lectura descripcion.jpg"
+		<hotspot name="Prestamo de Libros" style="flyoutimage"
+	         url="recursos/Carteles/Prestamo de libros.jpg"
 	         zorder="1"
-	         ath="93.9387763"
-	         atv="-12.7359589"
+	         ath="-139.6595421"
+	         atv="-22.2339718"
 	         scale="0.06"
 	         rx="0" ry="0" rz="0"
 	         />
-				-->
+				
 
 
 	</scene>
@@ -308,6 +307,16 @@
 		<hotspot name="spot1" style="pisada_hotspot" ath="107.240" atv="37.475" linkedscene="scene_escena17" linkedscene_lookat="212.75,12.0,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.393" atv="23.629" linkedscene="scene_escena13-1" linkedscene_lookat="84.56,17.57,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="68.255" atv="16.981" linkedscene="scene_escena15-2" linkedscene_lookat="7.3,0.83,120.0" />
+		
+		<hotspot name="SalaProf" style="flyoutimage"
+	         url="recursos/Carteles/Sala de Profesores.jpg"
+	         zorder="1"
+	         ath="127.9963566"
+	         atv="-29.2767319"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
 
 	</scene>
 
@@ -325,6 +334,16 @@
 
 		<hotspot name="spot1" style="pisada_hotspot" ath="-95.405" atv="24.634" linkedscene="scene_escena16" linkedscene_lookat="-70.24,-2.28,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.544" atv="17.227" linkedscene="scene_escena15-1" linkedscene_lookat="-142.82,-0.75,120.0" />
+
+		<hotspot name="Cubigru" style="flyoutimage"
+	         url="recursos/Carteles/Cubigru.jpg"
+	         zorder="1"
+	         ath="-98.5274677"
+	         atv="-31.5944843"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
 
 	</scene>
 
@@ -344,6 +363,16 @@
 		<hotspot name="spot2" style="pisada_hotspot" ath="14.809" atv="17.162" linkedscene="scene_escena4-1" linkedscene_lookat="341.69,24.37,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="165.956" atv="21.147" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
 
+		<hotspot name="Sala Julio" style="flyoutimage"
+	         url="recursos/Carteles/Sala Julio Ravelo.jpg"
+	         zorder="1"
+	         ath="-27.0045900"
+	         atv="-12.1052088"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
+
 	</scene>
 
 	<scene name="scene_Escena24-1" title="Escena24-1" onstart="" thumburl="panos/Escena24-1.tiles/thumb.jpg" lat="18.48780000" lng="-69.96193333" alt="26.60" heading="0.0">
@@ -360,6 +389,16 @@
 
 		<hotspot name="spot1" style="pisada_hotspot" ath="-43.263" atv="6.938" linkedscene="scene_escena20" linkedscene_lookat="103.1,10.9,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="177.200" atv="13.511" linkedscene="scene_escena24-2" linkedscene_lookat="180.27,4.85,120.0" />
+
+		<hotspot name="Cubigrupal" style="flyoutimage"
+	         url="recursos/Carteles/Cubigru.jpg"
+	         zorder="1"
+	         ath="90.6654285"
+	         atv="-17.8866630"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
 
 	</scene>
 
@@ -378,6 +417,26 @@
 		<hotspot name="spot1" style="pisada_hotspot" ath="0.533" atv="15.900" linkedscene="scene_escena24-1" linkedscene_lookat="0.21,1.67,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="-87.129" atv="12.201" linkedscene="scene_escena26" linkedscene_lookat="1.67,-2.29,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="91.131" atv="11.224" linkedscene="scene_escena25" linkedscene_lookat="-63.58,-2.29,120.0" />
+
+
+		<hotspot name="Cencapa" style="flyoutimage"
+	         url="recursos/Carteles/Cencapa.jpg"
+	         zorder="1"
+	         ath="-86.4787909"
+	         atv="-20.7868160"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
+		<hotspot name="Cubigrupal" style="flyoutimage"
+	         url="recursos/Carteles/Cubigru.jpg"
+	         zorder="1"
+	         ath="90.6654285"
+	         atv="-17.8866630"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
 
 	</scene>
 
@@ -429,6 +488,24 @@
 		<hotspot name="spot1" style="pisada_hotspot" ath="-179.254" atv="20.670" linkedscene="scene_escena6" linkedscene_lookat="66.22,5.18,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="8.076" atv="21.119" linkedscene="scene_escena9" linkedscene_lookat="6.67,-2.92,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="-105.932" atv="20.226" linkedscene="scene_escena10" linkedscene_lookat="39.61,-3.33,120.0" />
+
+		<hotspot name="Centro libro chino" style="flyoutimage"
+	         url="recursos/Carteles/Cenchino.jpg"
+	         zorder="1"
+	         ath="-83.1434726"
+	         atv="-3.4669938"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
+		<hotspot name="Cubigru" style="flyoutimage"
+	         url="recursos/Carteles/Cubigru.jpg"
+	         zorder="1"
+	         ath="87.4801231"
+	         atv="3.1718004"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
 
 	</scene>
 
@@ -564,6 +641,21 @@
 		<hotspot name="spot3" style="pisada_hotspot" ath="7.098" atv="33.230" linkedscene="scene_escena21" linkedscene_lookat="89.81,10.31,120.0" />
 		<hotspot name="spot4" style="pisada_hotspot" ath="92.924" atv="16.386" linkedscene="scene_escena23" linkedscene_lookat="230.16,14.73,120.0" />
 		<hotspot name="spot5" style="pisada_hotspot" ath="-86.992" atv="15.987" linkedscene="scene_escena24-1" linkedscene_lookat="140.26,13.0,120.0" />
+		
+		<hotspot name="Prestamo de Libros" style="flyoutimage"
+	         url="recursos/Carteles/Prestamo de libros.jpg"
+	         zorder="1"
+	         ath="-154.4743642"
+	         atv="-31.6597627"
+	         scale="0.06"
+	         rx="0" ry="0" rz="0"
+	         />
+
+
+		<hotspot name="Sala de Lectura" style="flyoutimage" ath="92.1970772" atv="-12.0610832" scale="0.06" url="recursos/Carteles/Sala de Lectura.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+		<hotspot name="Area en grupo" style="flyoutimage" ath="-84.0169530" atv="-13.2911115" scale="0.06" url="recursos/Carteles/Area en grupo.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+
+
 
 	</scene>
 
