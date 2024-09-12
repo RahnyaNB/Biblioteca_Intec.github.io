@@ -182,7 +182,16 @@
 			visible="false"
 			distorted="true"
 			onclick="ocultar();" />
+		
 		<hotspot name="spot1" style="pisada_hotspot" ath="11.560" atv="10.319" linkedscene="scene_escena12-1" linkedscene_lookat="-8.48,-3.42,120.0" />
+		
+
+		<!-- ejemplo para carteles animados
+		
+		<hotspot name="boton_ejemplo" url="recursos/Carteles/Sala Julio Ravelo.jpg" keep="true" enabled="true" scale="0.1" ath="-84.0169530" atv="-13.2911115" scale.mobile="0.2" onclick="set(hotspot[ejemplo].visible,true);"/>
+		<hotspot name="ejemplo" url="recursos/Carteles/Julio descripcion.jpg" keep="true" enabled="true" visible="false" ath="-84.0169530" atv="-13.2911115" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[ejemplo].visible,false);"/>
+		
+		-->
 		
 
 	</scene>
@@ -261,7 +270,7 @@
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
 		<hotspot name="Sala de Lectura" style="flyoutimage" ath="93.9387763" atv="-12.7359589" scale="0.06" url="recursos/Carteles/Sala de Lectura.jpg" linkedscene_lookat="3.57,9.87,120.0" />
-		<hotspot name="Sala de Referencia" style="flyoutimage" ath="-101.3053332" atv="-13.5187094" scale="0.06" url="recursos/Carteles/Sala de Referencia.jpg" linkedscene_lookat="3.57,9.87,120.0" />
+
 		
 		<hotspot name="Prestamo de Libros" style="flyoutimage"
 	         url="recursos/Carteles/Prestamo de libros.jpg"
@@ -271,7 +280,10 @@
 	         scale="0.06"
 	         rx="0" ry="0" rz="0"
 	         />
-				
+		
+		
+		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" keep="true" enabled="true" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
+		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" keep="true" enabled="true" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
 
 
 	</scene>
