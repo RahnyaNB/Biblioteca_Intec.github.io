@@ -249,6 +249,8 @@
 		<hotspot name="boton_unesco" url="recursos/Carteles/unesco.jpg" scale="0.1" ath="176.2119642" atv="5.1713760" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,true);"/>
 		<hotspot name="unesco" url="recursos/Carteles/unesco.jpg" visible="false" ath="176.2119642" atv="5.1713760" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,false);"/>
 
+		<hotspot name="boton_fotocopi" url="recursos/Carteles/Fotocopi.jpg" scale="0.05" ath="17.5065816" atv="-5.3354272" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,true);"/>
+		<hotspot name="fotocopi" url="recursos/Carteles/Fotocopi descripcion.jpg" visible="false" ath="17.5065816" atv="-5.3354272" alpha="1" scale="0.2" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,false);"/>
 
 	</scene>
 
