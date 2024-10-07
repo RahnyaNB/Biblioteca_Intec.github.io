@@ -361,13 +361,13 @@
 			<cube url="panos/Escena2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664" />
 		</image>
 
-		<hotspot name="spot1" style="pisada_hotspot" ath="-27.736" atv="17.278" linkedscene="scene_escena3-1" linkedscene_lookat="4.19,15.22,120.0" />
-		<hotspot name="spot2" style="pisada_hotspot" ath="14.809" atv="17.162" linkedscene="scene_escena4-1" linkedscene_lookat="341.69,24.37,120.0" />
-		<hotspot name="spot3" style="pisada_hotspot" ath="163.2870693" atv="19.2867316" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
+		<hotspot name="spot1" style="pisada_hotspot" ath="-9.3081876" atv="16.2230331" linkedscene="scene_escena3-1" linkedscene_lookat="4.19,15.22,120.0" />
+		<hotspot name="spot2" style="pisada_hotspot" ath="29.0797583" atv="16.0352641" linkedscene="scene_escena4-1" linkedscene_lookat="341.69,24.37,120.0" />
+		<hotspot name="spot3" style="pisada_hotspot" ath="176.8854853" atv="24.7207745" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
 
 
-		<hotspot name="boton_salajulio" url="recursos/Carteles/Sala Julio Ravelo.jpg" scale="0.1" ath="-27.0045900" atv="-12.1052088" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,true);"/>
-		<hotspot name="salajulio" url="recursos/Carteles/Julio descripcion.jpg" visible="false" ath="-27.0045900" atv="-12.1052088" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,false);"/>
+		<hotspot name="boton_salajulio" url="recursos/Carteles/Sala Julio Ravelo.jpg" scale="0.1" ath="-8.3293214" atv="-10.7152821" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,true);"/>
+		<hotspot name="salajulio" url="recursos/Carteles/Julio descripcion.jpg" visible="false" ath="-8.3293214" atv="-10.7152821" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,false);"/>
 
 
 	</scene>
