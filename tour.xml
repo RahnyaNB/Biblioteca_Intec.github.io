@@ -276,15 +276,15 @@
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
 		
-		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-139.6595421" atv="-22.2339718" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
+		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-139.6595421" atv="-22.2339718" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
 		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" ath="-139.6595421" atv="-22.2339718" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
 
 		
-		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
-		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
+		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" scale="0.1" ath="-101.3053332" atv="-13.5187094" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
+		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" visible="false" ath="-101.3053332" atv="-13.5187094" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
 
-		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="93.9387763" atv="-12.7359589" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
-		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="93.9387763" atv="-12.7359589" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
+		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="93.9387763" atv="-12.7359589" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
+		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="93.9387763" atv="-12.7359589" alpha="1" scale="0.3" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
 
 
 	</scene>
@@ -321,8 +321,8 @@
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.393" atv="23.629" linkedscene="scene_escena13-1" linkedscene_lookat="84.56,17.57,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="68.255" atv="16.981" linkedscene="scene_escena15-2" linkedscene_lookat="7.3,0.83,120.0" />
 		
-		<hotspot name="boton_salaprof" url="recursos/Carteles/Sala de Profesores.jpg" scale="0.1" ath="127.4976907" atv="-1.6906953" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,true);"/>
-		<hotspot name="salaprof" url="recursos/Carteles/Prof descripcion.jpg" visible="false" ath="127.4976907" atv="-1.6906953" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,false);"/>
+		<hotspot name="boton_salaprof" url="recursos/Carteles/Sala de Profesores.jpg" scale="0.1" ath="127.4976907" atv="-1.6906953" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,true);"/>
+		<hotspot name="salaprof" url="recursos/Carteles/Prof descripcion.jpg" visible="false" ath="127.4976907" atv="-1.6906953" alpha="1" scale="0.3" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,false);"/>
 
 
 
