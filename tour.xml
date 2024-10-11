@@ -247,11 +247,11 @@
 		<hotspot name="spot2" style="hand2_hotspot" ath="-121.2216049" atv="1.8896358" linkedscene="scene_escena13-1" linkedscene_lookat="-213.5,-3.64,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="7.156" atv="5.240" linkedscene="scene_escena12-2" linkedscene_lookat="177.1,0.36,120.0" />
 		
-		<hotspot name="boton_unesco" url="recursos/Carteles/unesco.jpg" scale="0.1" ath="176.2119642" atv="5.1713760" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,true);"/>
-		<hotspot name="unesco" url="recursos/Carteles/unesco.jpg" visible="false" ath="176.2119642" atv="5.1713760" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,false);"/>
+		<hotspot name="boton_unesco" url="recursos/Carteles/unesco.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="176.2119642" atv="5.1713760" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,true);"/>
+		<hotspot name="unesco" url="recursos/Carteles/unesco.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="176.2119642" atv="5.1713760" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[unesco].visible,false);"/>
 
-		<hotspot name="boton_fotocopi" url="recursos/Carteles/Fotocopi.jpg" scale="0.05" ath="17.5065816" atv="-5.3354272" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,true);"/>
-		<hotspot name="fotocopi" url="recursos/Carteles/Fotocopi descripcion.jpg" visible="false" ath="17.5065816" atv="-5.3354272" alpha="1" scale="0.2" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,false);"/>
+		<hotspot name="boton_fotocopi" url="recursos/Carteles/Fotocopi.jpg" scale="0.05" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="17.5065816" atv="-5.3354272" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,true);"/>
+		<hotspot name="fotocopi" url="recursos/Carteles/Fotocopi descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="17.5065816" atv="-5.3354272" alpha="1" scale="0.2" scale.mobile="0.2" onclick="set(hotspot[fotocopi].visible,false);"/>
 
 	</scene>
 
@@ -276,15 +276,15 @@
 		<hotspot name="spot7" style="hand2_hotspot" ath="168.703" atv="-3.587" linkedscene="scene_escena13-2" linkedscene_lookat="3.57,9.87,120.0" />
 
 		
-		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-139.6595421" atv="-22.2339718" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
-		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" ath="-139.6595421" atv="-22.2339718" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
+		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" distorted="true" scale="0.1" ath="-139.6595421" atv="-22.2339718" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
+		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" distorted="true" visible="false" ath="-139.6595421" atv="-22.2339718" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
 
 		
-		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" scale="0.1" ath="-101.3053332" atv="-13.5187094" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
-		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" visible="false" ath="-101.3053332" atv="-13.5187094" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
+		<hotspot name="boton_salaref" url="recursos/Carteles/Sala de Referencia.jpg" distorted="true" scale="0.1" ath="-101.3053332" atv="-13.5187094" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,true);"/>
+		<hotspot name="salaref" url="recursos/Carteles/Salaref descripcion.jpg" distorted="true" visible="false" ath="-101.3053332" atv="-13.5187094" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaref].visible,false);"/>
 
-		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="93.9387763" atv="-12.7359589" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
-		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="93.9387763" atv="-12.7359589" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
+		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" distorted="true" scale="0.1" ath="93.9387763" atv="-12.7359589" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
+		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" distorted="true" visible="false" ath="93.9387763" atv="-12.7359589" alpha="1" scale="0.3" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
 
 
 	</scene>
@@ -321,8 +321,8 @@
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.393" atv="23.629" linkedscene="scene_escena13-1" linkedscene_lookat="84.56,17.57,120.0" />
 		<hotspot name="spot3" style="pisada_hotspot" ath="68.255" atv="16.981" linkedscene="scene_escena15-2" linkedscene_lookat="7.3,0.83,120.0" />
 		
-		<hotspot name="boton_salaprof" url="recursos/Carteles/Sala de Profesores.jpg" scale="0.1" ath="127.4976907" atv="-1.6906953" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,true);"/>
-		<hotspot name="salaprof" url="recursos/Carteles/Prof descripcion.jpg" visible="false" ath="127.4976907" atv="-1.6906953" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,false);"/>
+		<hotspot name="boton_salaprof" url="recursos/Carteles/Sala de Profesores.jpg" distorted="true" scale="0.1" ath="127.4976907" atv="-1.6906953" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,true);"/>
+		<hotspot name="salaprof" url="recursos/Carteles/Prof descripcion.jpg" distorted="true"  visible="false" ath="127.4976907" atv="-1.6906953" alpha="1" scale="0.3" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale.mobile="0.2" onclick="set(hotspot[salaprof].visible,false);"/>
 
 
 
@@ -343,8 +343,8 @@
 		<hotspot name="spot1" style="hand2_hotspot" ath="-99.0308329" atv="5.8171723" linkedscene="scene_escena16" linkedscene_lookat="-70.24,-2.28,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="178.544" atv="17.227" linkedscene="scene_escena15-1" linkedscene_lookat="-142.82,-0.75,120.0" />
 
-		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="-98.5274677" atv="-31.5944843" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
-		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="-98.5274677" atv="-31.5944843" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale="0.1" ath="-98.5274677" atv="-31.5944843" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" visible="false" ath="-98.5274677" atv="-31.5944843" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
 
 	</scene>
@@ -366,8 +366,8 @@
 		<hotspot name="spot3" style="pisada_hotspot" ath="176.8854853" atv="24.7207745" linkedscene="scene_escena1" linkedscene_lookat="181.51,12.39,120.0" />
 
 
-		<hotspot name="boton_salajulio" url="recursos/Carteles/Sala Julio Ravelo.jpg" scale="0.1" ath="-8.3293214" atv="-10.7152821" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,true);"/>
-		<hotspot name="salajulio" url="recursos/Carteles/Julio descripcion.jpg" visible="false" ath="-8.3293214" atv="-10.7152821" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,false);"/>
+		<hotspot name="boton_salajulio" url="recursos/Carteles/Sala Julio Ravelo.jpg" distorted="true"  rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale="0.1" ath="-8.3293214" atv="-10.7152821" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,true);"/>
+		<hotspot name="salajulio" url="recursos/Carteles/Julio descripcion.jpg" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" visible="false" ath="-8.3293214" atv="-10.7152821" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salajulio].visible,false);"/>
 
 
 	</scene>
@@ -387,8 +387,8 @@
 		<hotspot name="spot1" style="hand2_hotspot" ath="-44.2706789" atv="1.5922477" linkedscene="scene_escena20" linkedscene_lookat="103.1,10.9,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="177.200" atv="13.511" linkedscene="scene_escena24-2" linkedscene_lookat="180.27,4.85,120.0" />
 		
-		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
-		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" scale="0.1" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" visible="false" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
 
 	</scene>
@@ -410,11 +410,11 @@
 		<hotspot name="spot3" style="hand2_hotspot" ath="90.5406474" atv="2.2707454" linkedscene="scene_escena25" linkedscene_lookat="-63.58,-2.29,120.0" />
 
 
-		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
-		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="90.6654285" atv="-17.8866630" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="90.6654285" atv="-17.8866630" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
-		<hotspot name="boton_cencapa" url="recursos/Carteles/Cencapa.jpg" scale="0.1" ath="-86.4787909" atv="-20.7868160" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,true);"/>
-		<hotspot name="cencapa" url="recursos/Carteles/Cencapa descripcion.jpg" visible="false" ath="-86.4787909" atv="-20.7868160" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,false);"/>
+		<hotspot name="boton_cencapa" url="recursos/Carteles/Cencapa.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-86.4787909" atv="-20.7868160" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,true);"/>
+		<hotspot name="cencapa" url="recursos/Carteles/Cencapa descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-86.4787909" atv="-20.7868160" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cencapa].visible,false);"/>
 
 
 	</scene>
@@ -470,11 +470,11 @@
 
 
 
-		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="87.4801231" atv="3.1718004" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
-		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="87.4801231" atv="3.1718004" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="87.4801231" atv="3.1718004" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="87.4801231" atv="3.1718004" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
-		<hotspot name="boton_cenchino" url="recursos/Carteles/Cenchino.jpg" scale="0.1" ath="-83.1434726" atv="-3.4669938" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,true);"/>
-		<hotspot name="cenchino" url="recursos/Carteles/Cenchino descripcion.jpg" visible="false" ath="-83.1434726" atv="-3.4669938" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,false);"/>
+		<hotspot name="boton_cenchino" url="recursos/Carteles/Cenchino.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-83.1434726" atv="-3.4669938" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,true);"/>
+		<hotspot name="cenchino" url="recursos/Carteles/Cenchino descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-83.1434726" atv="-3.4669938" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cenchino].visible,false);"/>
 
 
 	</scene>
@@ -510,8 +510,8 @@
 		<hotspot name="spot1" style="hand2_hotspot" ath="12.9755850" atv="4.1831573" linkedscene="scene_escena8" linkedscene_lookat="-1.25,-1.25,120.0" />
 		<hotspot name="spot2" style="pisada_hotspot" ath="176.430" atv="13.497" linkedscene="scene_escena7" linkedscene_lookat="-128.41,9.4,120.0" />
 
-		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" ath="29.6903671" atv="3.7306735" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
-		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" ath="29.6903671" atv="3.7306735" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
+		<hotspot name="boton_cubigru" url="recursos/Carteles/Cubigru.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="29.6903671" atv="3.7306735" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,true);"/>
+		<hotspot name="cubigru" url="recursos/Carteles/Cubigru descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="29.6903671" atv="3.7306735" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[cubigru].visible,false);"/>
 
 
 
@@ -617,14 +617,14 @@
 		<hotspot name="spot4" style="pisada_hotspot" ath="92.924" atv="16.386" linkedscene="scene_escena23" linkedscene_lookat="230.16,14.73,120.0" />
 		<hotspot name="spot5" style="pisada_hotspot" ath="-86.992" atv="15.987" linkedscene="scene_escena24-1" linkedscene_lookat="140.26,13.0,120.0" />
 		
-		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" ath="92.1970772" atv="-12.0610832" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
-		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" ath="92.1970772" atv="-12.0610832" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
+		<hotspot name="boton_salalec" url="recursos/Carteles/Sala de Lectura.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="92.1970772" atv="-12.0610832" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,true);"/>
+		<hotspot name="salalec" url="recursos/Carteles/Sala lectura descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="92.1970772" atv="-12.0610832" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[salalec].visible,false);"/>
 
-		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" ath="-154.4743642" atv="-31.6597627" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
-		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" ath="-154.4743642" atv="-31.6597627" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
+		<hotspot name="boton_prestamo" url="recursos/Carteles/Prestamo de libros.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-154.4743642" atv="-31.6597627" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,true);"/>
+		<hotspot name="prestamo" url="recursos/Carteles/Prestamos descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-154.4743642" atv="-31.6597627" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[prestamo].visible,false);"/>
 	
-		<hotspot name="boton_areagru" url="recursos/Carteles/Area en grupo.jpg" scale="0.1" ath="-84.0169530" atv="-13.2911115" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,true);"/>
-		<hotspot name="areagru" url="recursos/Carteles/Area grupal descripcion.jpg" visible="false" ath="-84.0169530" atv="-13.2911115" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,false);"/>
+		<hotspot name="boton_areagru" url="recursos/Carteles/Area en grupo.jpg" scale="0.1" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-84.0169530" atv="-13.2911115" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,true);"/>
+		<hotspot name="areagru" url="recursos/Carteles/Area grupal descripcion.jpg" visible="false" distorted="true" rx="0" ry="0" rz="0" ox="0.0" oy="0.0" tx="0" ty="0" tz="0" ath="-84.0169530" atv="-13.2911115" alpha="1" scale="0.3" scale.mobile="0.2" onclick="set(hotspot[areagru].visible,false);"/>
 
 
 	</scene>
